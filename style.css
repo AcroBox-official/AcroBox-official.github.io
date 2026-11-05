@@ -1,0 +1,15 @@
+:root {color-scheme:light; font-family:system-ui,-apple-system,BlinkMacSystemFont,"Noto Sans JP",sans-serif; color:#f6f7f8; background:#121417; line-height:1.75}
+* {box-sizing:border-box}
+body {margin:0}
+header, main, footer {max-width:860px; margin:auto; padding:20px 24px}
+header {padding-top:48px; border-bottom:1px solid #3b3e44}
+.brand {font-size:1.6rem; font-weight:800; letter-spacing:.02em}
+.sub {color:#bdc3ce; font-size:.92rem}
+nav {display:flex; gap:18px; flex-wrap:wrap; margin-top:14px}
+a {color:#9fc4ff; text-underline-offset:4px}
+main {padding-top:28px; padding-bottom:48px}
+h1 {font-size:clamp(1.5rem,5vw,2.3rem); line-height:1.4}
+h2 {font-size:1.15rem; border-bottom:1px solid #3b3e44; padding-bottom:7px; margin-top:35px}
+p,li {max-width:75ch}
+footer {font-size:.9rem; color:#bdc3ce; border-top:1px solid #3b3e44; padding-bottom:55px}
+.notice {border:1px solid #565b61; border-radius:8px; padding:14px; background:#1c1f24}
